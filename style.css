@@ -1,0 +1,94 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url("Images/adventure-daylight-group-1375560.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+#input {
+    width: 700px;
+    height: 60px;
+    font-size: 50px;
+    margin: 0;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+/* Very important To Remove The HighLighted border of input */
+input:focus {
+    outline: none;
+}
+
+#List {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+}
+
+li {
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+li:hover {
+    color: rgb(247, 243, 0);
+}
+
+::placeholder {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#Hemdan {
+    text-align: left;
+    margin: 20px 0 0 80px;
+    font-weight: bold;
+    color: rgb(245, 96, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+#Hemdan:hover {
+    color: rgb(255, 255, 255);
+}
+
+#Giude {
+    margin-top: auto;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#Giude:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* This Two Line Used To Change The Color Of The Placeholder on focus */
+input::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+}
+
+input:focus::-webkit-input-placeholder {
+    color: rgb(0, 248, 207);
+}
+
+input,
+textarea,
+[contenteditable] {
+    caret-color: #FFFFFF;
+}
